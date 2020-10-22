@@ -1,0 +1,139 @@
+.con1{
+  padding-top: 80px;
+  padding-bottom: 50px;
+  height: auto;
+  background: url("images/home.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.con2{
+  /* padding-top: 10px; */
+  padding-bottom: 30px;
+}
+
+.con3{
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+
+.text_align_center{
+  text-align: center;
+}
+
+.heading_s1 h2 {
+    font-size: 60px;
+    color: #252323;
+    font-weight: 400;
+    line-height: 55px;
+    width: auto;
+    position: relative;
+}
+
+.about_dottat {
+    background: url("images/dottet_bg.png") no-repeat center center;
+    background-size: cover;
+    background-position: center bottom;
+}
+
+.layout_padding {
+    padding: 90px 0;
+}
+
+.footer {
+    background: #3a3a3a;
+}
+
+.footer_menu ul {
+    list-style: none;
+}
+
+.footer .widget-title {
+    color: #ffffff;
+}
+
+.footer_logo {
+    margin-bottom: 20px;
+}
+
+.footer_blog1 p {
+    color: #f8fdfe;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.footer_social_icon {
+    float: left;
+    width: 100%;
+}
+
+.footer_social_icon ul {
+    list-style: none;
+    margin: 0;
+    float: left;
+    width: 100%;
+}
+
+.footer_social_icon ul li {
+    display: inline;
+    float: left;
+}
+
+.footer_social_icon ul li a {
+    background: #fff;
+    float: left;
+    margin: 0 5px 0 0;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    border-radius: 100%;
+    color: #111428;
+    font-size: 15px;
+    transition: ease all 0.5s;
+}
+
+.footer_social_icon ul li a:hover,
+.footer_social_icon ul li a:focus {
+    background: #feb61a;
+    color: #111428;
+}
+
+.footer_link_heading h3 {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+    margin: 0 0 20px 0;
+    line-height: normal;
+    text-align: left;
+}
+
+.footer_blog2 ul {
+    list-style: none;
+    float: left;
+    width: 45%;
+    margin: 0;
+}
+
+.footer_blog2 ul {
+    margin-top: -5px;
+}
+
+.footer_blog2 ul li {
+    float: left;
+    width: 100%;
+    margin: 1px 0;
+}
+
+.footer_blog2 ul li a {
+    font-weight: 300;
+    font-size: 14px;
+    transition: ease all 0.2s;
+    color: #fff;
+}
+
+.footer_blog2 ul li a:hover,
+.footer_blog2 ul li a:focus {
+    color: #feb61a;
+}
