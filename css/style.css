@@ -15,9 +15,10 @@ body{
     align-content: center;
     padding: 1.5em;
 }
-a.nav-element{
+.nav-element{
     margin-left: 2.5em;
-    text-decoration: blue;
+    color:red;
+    text-decoration: none;
     font-family: monospace;
     font-weight: 500;
     font-size: x-large;
@@ -56,8 +57,8 @@ a.nav-element{
     width:40vw;
 }
 footer{
-    padding: 2em;
-    height: 30vh;
+    padding: 1em;
+    
     background-color: darkslategrey;
     display: flex;
     flex-direction: row;
@@ -66,11 +67,41 @@ footer{
     width: 14%;
     height: 25%;
 }
-.contacts{
-    margin-left: 15em;
+#contacts{
+    margin-left: 10em;
     color: white;
 }
 .navigation{
-    margin-left: 15em;
+    margin-left: 8em;
     color: white;
+    display: flex;
+    flex-direction: column;
+}
+.nava{
+    color: white;
+    text-decoration: none;
+}
+.nava:hover{
+    color: violet;
+}
+.footer-fb{
+    margin-right: 5px;
+    padding: 1em;
+    background-image: url("/TalentServe/imgs/Fb.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.footer-li{
+    padding: 1em;
+    margin-right: 5px;
+    background-image: url("/TalentServe/imgs/LinkedIn.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.footer-tw{
+    padding: 1em;
+    margin-right: 5px;
+    background-image: url("/TalentServe/imgs/Rename.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
