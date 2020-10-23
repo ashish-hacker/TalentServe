@@ -3,7 +3,7 @@ body{
     scroll-behavior: smooth;
     font-family: 'Courier New', Courier, monospace;
     word-spacing: 1.5vmin;
-    line-height: 1.7vmax;
+    line-height: 2.5vmax;
     font-size: large;
 }
 .navbar{
@@ -63,11 +63,11 @@ footer{
     height: 25%;
 }
 #contacts{
-    margin-left: 10em;
+    margin-left: 8em;
     color: white;
 }
 .navigation{
-    margin-left: 8em;
+    margin-left: 5em;
     color: white;
     display: flex;
     flex-direction: column;
@@ -201,4 +201,7 @@ footer{
 .hello:hover{
     box-shadow:5px 10px rgba(44, 31, 31, 0.377);
     opacity: 0.8;
+}
+.nav-list{
+    list-style-type: none;
 }
