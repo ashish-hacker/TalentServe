@@ -105,7 +105,7 @@ footer{
 
 #Home{ 
     position: relative;
-    height: 90vh;
+    height: 100vh;
     display: flex;
     flex-direction: row;
          }
@@ -113,7 +113,7 @@ footer{
 .slide{
     position:absolute;
     width: 100%;
-    height: 90vh;
+    height: 100vh;
     top:0;
     bottom:2em;
     animation: slideshow 12s linear 0s infinite;
@@ -182,18 +182,21 @@ footer{
     background-image: url("/imgs/pic2.jpg");
     background-size: 130%;
     background-repeat: no-repeat;
+    border-radius: 2vmax;
 }
 .service-img1{
     width: 25%;
     background-image: url("/imgs/pic1.jpg");
     background-size: 120%;
     background-repeat: no-repeat;
+    border-radius: 2vmax;
 }
 .service-img2{
     width: 25%;
     background-image: url("/imgs/pic3.jpg");
     background-size: 120%;
     background-repeat: no-repeat;
+    border-radius: 2vmax;
 }
 .hello:hover{
     box-shadow:5px 10px rgba(44, 31, 31, 0.377);
