@@ -1,5 +1,24 @@
+#navbar{
+  box-shadow: rgba(0, 0, 0, 0.56);
+  border: none;
+  max-height: 74px;
+}
+
+#nav-items{
+max-width: 718.8px;
+}
+
+.spacing{
+  padding-top: 18px;
+}
+
+.lrSpacing{
+  margin-left: 45px;
+  margin-right: 45px;
+}
+
 .con1{
-  padding-top: 80px;
+  /* padding-top: 80px; */
   padding-bottom: 50px;
   height: auto;
   background: url("images/home.jpg") no-repeat center center;
@@ -16,13 +35,23 @@
   padding-bottom: 40px;
 }
 
+.con4{
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+.hh{
+  font-family: 'Anton', sans-serif;
+  text-align: center;
+}
+
 .text_align_center{
   text-align: center;
 }
 
 .heading_s1 h2 {
     font-size: 60px;
-    color: #252323;
+    color: #060E79;
     font-weight: 400;
     line-height: 55px;
     width: auto;
@@ -40,7 +69,7 @@
 }
 
 .footer {
-    background: #3a3a3a;
+    background: #ffa801;
 }
 
 .footer_menu ul {
